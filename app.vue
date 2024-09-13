@@ -1,5 +1,6 @@
 <template>
   <div>
+    <meta name="google-site-verification" content="jvGt8cPvoYQile3Fh5yqwYk3K3qGkPgFE8ozb9bLg2E" />
     <SpeedInsights/>
     <NuxtRouteAnnouncer />
     <main>
