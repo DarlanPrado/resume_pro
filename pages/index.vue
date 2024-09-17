@@ -1,11 +1,4 @@
 <template>
-    <div>
-        <UModal v-model="showModal">
-            <UCard>
-                <span>O projeto está em desenvolvimento e em breve estará diponivel para uso.</span>
-            </UCard>
-        </UModal>
-    </div>
     <div class="fixed z-50 right-5 top-5">
       <LazyChangeTheme />
     </div>
@@ -22,7 +15,7 @@
                             </div>
                             <div class="mt-5">
                                 <!-- <UButton size="xl"  label="Começar" block /> -->
-                                <UButton size="xl" @click="showModal = true" label="Em breve" block />
+                                <UButton size="xl" to="/curriculo-rapido" label="Começar" block />
                             </div>
                         </div>
                         <div class="h-full py-14 space-y-10">
@@ -56,14 +49,14 @@
                         </div>
                     </div>
                 </UContainer>
-                <div class="h-full flex justify">
+                <div>
+                    <!-- <LayoutsDefaultFooter /> -->
                 </div>
             </div>
         </div>
     </div>
-  </template>
+</template>
 <script setup lang="ts">
-const showModal = ref(false);
 
 definePageMeta({
     layout: false

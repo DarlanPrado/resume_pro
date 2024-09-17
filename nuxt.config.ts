@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/google-fonts',
     '@nuxt/ui',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@sidebase/nuxt-pdf'
   ]
 })
