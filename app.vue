@@ -4,6 +4,7 @@
     <SpeedInsights/>
     <NuxtRouteAnnouncer />
     <main>
+      <UNotifications />
       <NuxtLayout>
         <NuxtPage :page-key="route => route.fullPath" />
       </NuxtLayout>
